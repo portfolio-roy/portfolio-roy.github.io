@@ -1,5 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+**IMPORTANT: This is the new repository for the project. This is a live website. If you want to see previous commits, please visit [HERE](https://github.com/utsargo/portfolio-utsargo-microverse)**
+
+**Live Website:** https://portfolio.utsargo.tech
+
 # Portfolio Website Project
 ### Mobile design (First milestone)
 
