@@ -1,12 +1,12 @@
 @font-face {
   font-family: roy-icons;
-  src: url("../font/roy-icons.eot?78801134");
+  src: url("../font/roy-icons.eot?28079814");
   src:
-    url("../font/roy-icons.eot?78801134#iefix") format("embedded-opentype"),
-    url("../font/roy-icons.woff2?78801134") format("woff2"),
-    url("../font/roy-icons.woff?78801134") format("woff"),
-    url("../font/roy-icons.ttf?78801134") format("truetype"),
-    url("../font/roy-icons.svg?78801134#roy-icons") format("svg");
+    url("../font/roy-icons.eot?28079814#iefix") format("embedded-opentype"),
+    url("../font/roy-icons.woff2?28079814") format("woff2"),
+    url("../font/roy-icons.woff?28079814") format("woff"),
+    url("../font/roy-icons.ttf?28079814") format("truetype"),
+    url("../font/roy-icons.svg?28079814#roy-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -19,7 +19,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'roy-icons';
-    src: url('../font/roy-icons.svg?78801134#roy-icons') format('svg');
+    src: url('../font/roy-icons.svg?28079814#roy-icons') format('svg');
   }
 }
 */
@@ -67,3 +67,4 @@
 .icon-github::before { content: "\e802"; } /* '' */
 .icon-medium::before { content: "\e803"; } /* '' */
 .icon-linkedin::before { content: "\e804"; } /* '' */
+.icon-menu::before { content: "\e805"; } /* '' */
