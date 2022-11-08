@@ -99,6 +99,19 @@ ul {
   color: #172b4d;
 }
 
+.wrapper {
+  width: 100%;
+  padding: 0;
+}
+
+section {
+  padding: 0 !important;
+}
+
+.section-content {
+  width: 100%;
+}
+
 .navbar {
   height: 48px !important;
   display: flex;
@@ -126,12 +139,6 @@ ul {
   color: #36b37f;
 }
 
-.wrapper {
-  width: 100%;
-  padding: 0;
-  min-height: 702.12px;
-}
-
 /* section-1 */
 .welcome {
   background-image: url("../images/header-illsutration-mobile.svg");
@@ -149,6 +156,14 @@ ul {
 .welcome p {
   font-size: 20px;
   line-height: 28px;
+}
+
+#contact,
+#welcome {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .greetings,
@@ -225,7 +240,7 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-radius: 32px;
+  border-radius: 50%;
   padding: 8px;
   position: absolute;
   border: 1px solid #dfe1e6;
@@ -233,6 +248,8 @@ ul {
   text-decoration: none !important;
   color: #172b4d;
   transition: 500ms ease;
+  height: 40px;
+  width: 40px;
 }
 
 .down-arrow:hover {
@@ -399,6 +416,9 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#contact {
   background-image: url("../images/illustration-contact-formfooter-mobile.png");
   background-position: right -50px bottom 0;
   background-repeat: no-repeat;
@@ -460,7 +480,7 @@ textarea:invalid {
 }
 
 @media screen and (min-width: 768px) {
-  .wrapper {
+  .section-content {
     max-width: 768px;
   }
 
@@ -477,8 +497,20 @@ textarea:invalid {
     display: none;
   }
 
+  .mobile-form {
+    display: none;
+  }
+
   .site-title {
     display: none;
+  }
+
+  .desktop-form fieldset {
+    display: flex;
+    gap: 24px;
+    border: none;
+    padding: 0;
+    width: 100%;
   }
 
   .navbar {
@@ -558,7 +590,7 @@ textarea:invalid {
 }
 
 @media screen and (min-width: 1024px) {
-  .wrapper {
+  .section-content {
     max-width: 1024px;
   }
 
@@ -567,20 +599,8 @@ textarea:invalid {
     background-color: transparent;
   }
 
-  .mobile-form {
-    display: none;
-  }
-
   .mobile-nav {
     display: none;
-  }
-
-  .desktop-form fieldset {
-    display: flex;
-    gap: 24px;
-    border: none;
-    padding: 0;
-    width: 100%;
   }
 
   .site-title {
@@ -636,14 +656,17 @@ textarea:invalid {
     align-items: center;
   }
 
-  .contact-me {
+  #contact {
     background-image: url("../images/footer-desktop.png");
+    background-position: bottom center;
+    object-fit: cover;
+  }
+
+  .contact-me {
     display: grid;
     grid-template-columns: 40% 60%;
     align-items: start;
     column-gap: 24px;
-    background-position: bottom center;
-    object-fit: cover;
   }
 
   .contact-me .section-heading {
@@ -656,7 +679,7 @@ textarea:invalid {
 }
 
 @media screen and (min-width: 1440px) {
-  .wrapper {
+  .section-content {
     max-width: 1440px;
   }
 }
