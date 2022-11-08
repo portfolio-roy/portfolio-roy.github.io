@@ -1,0 +1,10 @@
+node_modules/
+.vscode/
+assets/styles/style.scss
+assets/styles/style.css.map
+package-lock.json
+package.json
+test.txt
+.hintrc
+.stylelintrc.json
+sassconfig.json
