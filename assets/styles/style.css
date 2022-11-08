@@ -431,6 +431,10 @@ section {
   align-items: center;
 }
 
+.my-contact-form label {
+  width: 100%;
+}
+
 .my-contact-form input,
 textarea {
   width: 100%;
