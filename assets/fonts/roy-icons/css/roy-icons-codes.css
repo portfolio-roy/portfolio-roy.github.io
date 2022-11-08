@@ -1,6 +1,8 @@
-.icon-twitter::before { content: "\e800"; } /* '' */
-.icon-angellist::before { content: "\e801"; } /* '' */
-.icon-github::before { content: "\e802"; } /* '' */
-.icon-medium::before { content: "\e803"; } /* '' */
-.icon-linkedin::before { content: "\e804"; } /* '' */
-.icon-menu::before { content: "\e805"; } /* '' */
+
+.icon-twitter:before { content: '\e800'; } /* '' */
+.icon-angellist:before { content: '\e801'; } /* '' */
+.icon-github:before { content: '\e802'; } /* '' */
+.icon-medium:before { content: '\e803'; } /* '' */
+.icon-linkedin:before { content: '\e804'; } /* '' */
+.icon-menu:before { content: '\e805'; } /* '' */
+.icon-chevron-down:before { content: '\e806'; } /* '' */
