@@ -156,7 +156,7 @@ section {
   padding: 10px;
   text-decoration: none;
   color: #344563;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   transition: 0.3s ease-out;
 }
@@ -646,7 +646,9 @@ textarea:invalid {
 
   .main-menu.active {
     top: 48px;
+    margin-top: 0;
   }
+
 }
 
 @media screen and (min-width: 1024px) {
