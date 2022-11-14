@@ -309,12 +309,13 @@ section {
   padding: 8px;
   position: absolute;
   border: 1px solid #dfe1e6;
-  top: 95%;
+  top: 93%;
   text-decoration: none !important;
   color: #172b4d;
   transition: 500ms ease;
   height: 40px;
   width: 40px;
+  z-index: 99;
 }
 
 .down-arrow:hover {
@@ -658,6 +659,8 @@ textarea:invalid {
     text-align: left !important;
     transition: 0.3s;
     align-items: flex-start !important;
+    height: 100vh;
+    z-index: 999;
   }
 
   .nav-item {
