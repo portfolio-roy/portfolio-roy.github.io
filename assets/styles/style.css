@@ -1,5 +1,11 @@
 @import url("../fonts/roy-icons/css/roy-icons.css");
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,6 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 /* Typography */
@@ -121,7 +128,13 @@ section {
 }
 
 .section-content {
+  max-width: 100vw;
   width: 100%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .navbar {
@@ -167,7 +180,7 @@ section {
 
 .bar {
   display: block;
-  width: 25px;
+  width: 24px;
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease;
@@ -227,6 +240,10 @@ section {
   height: 4px;
   background-color: #36b37f;
   margin-bottom: 58px;
+}
+
+.separator-64 {
+  margin-bottom: 64px;
 }
 
 .separator-blank {
@@ -292,7 +309,7 @@ section {
   padding: 8px;
   position: absolute;
   border: 1px solid #dfe1e6;
-  top: 640px;
+  top: 95%;
   text-decoration: none !important;
   color: #172b4d;
   transition: 500ms ease;
@@ -604,6 +621,10 @@ textarea:invalid {
     display: none;
   }
 
+  .navbar {
+    background-color: #fff !important;
+  }
+
   .menu-ico {
     display: block;
   }
@@ -614,10 +635,12 @@ textarea:invalid {
 
   .menu-ico.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
+    background-color: #93a79d;
   }
 
   .menu-ico.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    background-color: #93a79d;
   }
 
   .main-nav {
@@ -627,24 +650,30 @@ textarea:invalid {
   .main-menu {
     position: fixed;
     right: -100%;
-    gap: 0;
+    gap: 0 !important;
     top: 48px;
-    opacity: 0;
     flex-direction: column;
     background-color: white;
     width: 100%;
-    text-align: center;
+    text-align: left !important;
     transition: 0.3s;
+    align-items: flex-start !important;
   }
 
   .nav-item {
-    margin: 16px 0;
+    margin: 8px 0;
+  }
+
+  .nav-link {
+    font-size: 32px !important;
+    line-height: 44px !important;
+    padding: 8px 16px !important;
+    text-align: left !important;
   }
 
   .main-menu.active {
     right: 0;
     margin-top: 0;
-    opacity: 1;
   }
 }
 
