@@ -76,6 +76,14 @@ body * {
   border: none;
 }
 
+.d-none {
+  display: none;
+}
+
+.v-hidden {
+  visibility: hidden;
+}
+
 p,
 h1,
 h2,
