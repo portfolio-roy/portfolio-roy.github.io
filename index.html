@@ -10,8 +10,28 @@
   <body>
     <main class="wrapper">
       <header class="navbar">
-        <a class="site-title" href="#">Welcome</a>
-        <nav class="mobile-nav">
+        <nav class="main-nav">
+          <a class="site-title" href="#">Welcome</a>
+          <ul class="main-menu">
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+
+        <!-- <nav class="mobile-nav">
+          
           <span class="roy-icon icon-menu"></span>
         </nav>
         <nav class="desktop-nav">
@@ -19,8 +39,8 @@
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+          </ul> 
+        </nav>-->
       </header>
       <section id="welcome">
         <div class="section-content welcome">
@@ -251,34 +271,34 @@
               action="https://formspree.io/f/xdojwqqv"
               method="POST"
             >
-            <label>
-                <span style="visibility: hidden;">Name</span>
-              <input
-                type="text"
-                name="name"
-                maxlength="30"
-                placeholder="Full name"
-                required
-              />
-            </label>
-            <label>
-                <span style="visibility: hidden;">Email</span> 
-              <input
-                type="email"
-                name="email"
-                placeholder="Email Adress"
-                required
-              />
-            </label>
-            <label>
-                <span style="visibility: hidden;">Your message</span> 
-              <textarea
-                name="message"
-                placeholder="Enter text here"
-                maxlength="500"
-                required
-              ></textarea>
-            </label>
+              <label>
+                <span class="v-hidden">Name</span>
+                <input
+                  type="text"
+                  name="name"
+                  maxlength="30"
+                  placeholder="Full name"
+                  required
+                />
+              </label>
+              <label>
+                <span class="v-hidden">Email</span>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Adress"
+                  required
+                />
+              </label>
+              <label>
+                <span class="v-hidden">Your message</span>
+                <textarea
+                  name="message"
+                  placeholder="Enter text here"
+                  maxlength="500"
+                  required
+                ></textarea>
+              </label>
               <button class="button btn-primary border-none" type="submit">
                 Get In touch
               </button>
@@ -289,42 +309,43 @@
               class="my-contact-form"
               action="https://formspree.io/f/xdojwqqv"
               method="POST"
-            ><label>
-                <span style="visibility: hidden;">Name</span>
-              <fieldset>
-                <input
-                  type="text"
-                  name="first-name"
-                  maxlength="30"
-                  placeholder="First name"
-                  required
-                />
-                <input
-                  type="text"
-                  name="last-name"
-                  maxlength="30"
-                  placeholder="Last name"
-                  required
-                />
-              </fieldset>
+            >
+              <label>
+                <span class="v-hidden">Name</span>
+                <fieldset>
+                  <input
+                    type="text"
+                    name="first-name"
+                    maxlength="30"
+                    placeholder="First name"
+                    required
+                  />
+                  <input
+                    type="text"
+                    name="last-name"
+                    maxlength="30"
+                    placeholder="Last name"
+                    required
+                  />
+                </fieldset>
               </label>
               <label>
-                <span style="visibility: hidden;">Email</span> 
-              <input
-                type="email"
-                name="email"
-                placeholder="Email Adress"
-                required
-              />
+                <span class="v-hidden">Email</span>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Adress"
+                  required
+                />
               </label>
               <label>
-                <span style="visibility: hidden;">Your message</span> 
-              <textarea
-                name="message"
-                placeholder="Enter text here"
-                maxlength="500"
-                required
-              ></textarea>
+                <span class="v-hidden">Your message</span>
+                <textarea
+                  name="message"
+                  placeholder="Enter text here"
+                  maxlength="500"
+                  required
+                ></textarea>
               </label>
               <button class="button btn-primary border-none" type="submit">
                 Get In touch
@@ -388,5 +409,6 @@
         <div class="footer-end-line"></div>
       </div>
     </main>
+    <script src="./assets/js/menu.js"></script>
   </body>
 </html>
