@@ -33,7 +33,8 @@
   font-family: roy-icons, fantasy;
   font-style: normal;
   font-weight: normal;
-  speak: never;
+
+  /* speak: never; */
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
