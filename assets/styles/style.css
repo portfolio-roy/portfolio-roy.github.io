@@ -165,11 +165,6 @@ section {
   color: #36b37f;
 }
 
-.hamburger {
-  display: none;
-  cursor: pointer;
-}
-
 .bar {
   display: block;
   width: 25px;
@@ -533,6 +528,11 @@ textarea:invalid {
 }
 
 @media screen and (min-width: 768px) {
+  .menu-ico {
+    display: none;
+    cursor: pointer;
+  }
+
   .section-content {
     max-width: 768px;
   }
@@ -543,10 +543,6 @@ textarea:invalid {
 
   .footer-end,
   .footer-end-line {
-    display: none;
-  }
-
-  .mobile-nav {
     display: none;
   }
 
@@ -608,19 +604,19 @@ textarea:invalid {
     display: none;
   }
 
-  .hamburger {
+  .menu-ico {
     display: block;
   }
 
-  .hamburger.active .bar:nth-child(2) {
+  .menu-ico.active .bar:nth-child(2) {
     opacity: 0;
   }
 
-  .hamburger.active .bar:nth-child(1) {
+  .menu-ico.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
 
-  .hamburger.active .bar:nth-child(3) {
+  .menu-ico.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
@@ -630,9 +626,10 @@ textarea:invalid {
 
   .main-menu {
     position: fixed;
-    left: 0;
-    top: -100%;
+    right: -100%;
     gap: 0;
+    top: 48px;
+    opacity: 0;
     flex-direction: column;
     background-color: white;
     width: 100%;
@@ -645,10 +642,10 @@ textarea:invalid {
   }
 
   .main-menu.active {
-    top: 48px;
+    right: 0;
     margin-top: 0;
+    opacity: 1;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
