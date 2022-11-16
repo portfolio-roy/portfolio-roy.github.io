@@ -1,12 +1,12 @@
 @font-face {
   font-family: roy-icons;
-  src: url("../font/roy-icons.eot?59723972");
+  src: url("../font/roy-icons.eot?35532362");
   src:
-    url("../font/roy-icons.eot?59723972#iefix") format("embedded-opentype"),
-    url("../font/roy-icons.woff2?59723972") format("woff2"),
-    url("../font/roy-icons.woff?59723972") format("woff"),
-    url("../font/roy-icons.ttf?59723972") format("truetype"),
-    url("../font/roy-icons.svg?59723972#roy-icons") format("svg");
+    url("../font/roy-icons.eot?35532362#iefix") format("embedded-opentype"),
+    url("../font/roy-icons.woff2?35532362") format("woff2"),
+    url("../font/roy-icons.woff?35532362") format("woff"),
+    url("../font/roy-icons.ttf?35532362") format("truetype"),
+    url("../font/roy-icons.svg?35532362#roy-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -19,7 +19,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'roy-icons';
-    src: url('../font/roy-icons.svg?59723972#roy-icons') format('svg');
+    src: url('../font/roy-icons.svg?35532362#roy-icons') format('svg');
   }
 }
 */
@@ -28,11 +28,10 @@
   font-family: roy-icons, fantasy;
   font-style: normal;
   font-weight: normal;
-
-  /* speak: never; */
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
+  margin-right: 0.2em;
   text-align: center;
 
   /* opacity: .8; */
@@ -47,6 +46,7 @@
   /* Animation center compensation - margins should be symmetric */
 
   /* remove if not needed */
+  margin-left: 0.2em;
 
   /* you can be more comfortable with increased icons size */
 
@@ -68,3 +68,4 @@
 .icon-linkedin::before { content: "\e804"; } /* '' */
 .icon-menu::before { content: "\e805"; } /* '' */
 .icon-chevron-down::before { content: "\e806"; } /* '' */
+.icon-icon-go-link::before { content: "\e807"; } /* '' */
