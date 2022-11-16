@@ -85,7 +85,7 @@
         <div class="section-content container">
           <h2 class="section-heading txt-center">My Recent Works</h2>
           <div class="separator"></div>
-          <div class="cards-showcase">
+          <div class="cards-showcase" id="project-showcase">
             <div class="card portfolio-item">
               <img
                 src="./assets/images/portfolio-4.png"
@@ -100,10 +100,12 @@
                   <li class="category">Javascript</li>
                   <li class="category">html</li>
                 </ul>
-                <a href="#" class="button btn-primary">See Project</a>
+                <button class="button btn-primary project-btn" id="project1">
+                  See Project
+                </button>
               </div>
             </div>
-            <div class="card portfolio-item">
+            <!-- <div class="card portfolio-item">
               <img
                 src="./assets/images/portfolio-3.png"
                 alt="Multi-Post Stories Gain+Glory"
@@ -187,6 +189,53 @@
                 </ul>
                 <a href="#" class="button btn-primary">See Project</a>
               </div>
+            </div> -->
+          </div>
+          <div class="modals" id="project-modals">
+            <div id="project-modal" class="modal">
+              <!-- Modal content -->
+              <!-- <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-card">
+                  <img
+                    src="./assets/images/modal-1.png"
+                    class="modal-image"
+                    alt=""
+                  />
+                  <div class="modal-text">
+                    <div class="modal-header">
+                      <h3 class="modal-title">
+                        Keeping track of hundreds of components
+                      </h3>
+                      <div class="modal-buttons">
+                        <a href="" class="button btn-primary"
+                          >See live <span class="icon-icon-go-link"></span
+                        ></a>
+                        <a href="" class="button btn-primary"
+                          >See live <span class="icon-github"></span
+                        ></a>
+                      </div>
+                    </div>
+                    <ul class="modal-tags categories">
+                      <li class="category">Ruby on rails</li>
+                      <li class="category">css</li>
+                      <li class="category">Javascript</li>
+                      <li class="category">html</li>
+                    </ul>
+                    <p class="modal-description">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it 1960s with
+                      the releaLorem Ipsum is simply dummy text of the printing
+                      and typesetting industry. Lorem Ipsum has been the
+                      industry's standard dummy text ever since the 1500s, when
+                      an unknown printer took a galley of type and scrambled it
+                      1960s with the relea
+                    </p>
+                  </div>
+                </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -407,10 +456,12 @@
           <a href="#"><span class="roy-icon icon-angellist"></span></a>
         </li>
       </ul>
+      <div id="demo"></div>
       <div class="footer-end">
         <div class="footer-end-line"></div>
       </div>
     </main>
     <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/data.js"></script>
   </body>
 </html>
