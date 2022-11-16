@@ -148,6 +148,11 @@ projectData.forEach((modal, index) => {
             projectModal.style.display = 'none';
           });
           // close the modal when user clicks anywhere outside
+             window.onclick = function clickedOutside(event) {
+            if (event.target === projectModal) {
+              projectModal.style.display = 'none';
+            }
+          };
         }
       }
     });
