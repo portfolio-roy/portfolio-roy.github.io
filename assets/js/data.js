@@ -89,3 +89,67 @@ function projectFunction() {
 projectFunction();
 
 // Modal Creation
+const modalBtn = document.getElementsByClassName('project-btn');
+const projectModal = document.getElementById('project-modal');
+projectData.forEach((modal, index) => {
+  const modalTitle = modal.title;
+  const modalDescription = modal.description;
+  const modalImage = modal.featuredImage;
+  const modalLiveLink = modal.liveLink;
+  const modalSourceLink = modal.sourceLink;
+  const modalId = index;
+  let modaltagBadge = '';
+  const modalTags = modal.tags;
+  for (let i = 0; i < modalTags.length; i += 1) {
+    modaltagBadge += `<li class="category">${modalTags[i]}</li>`;
+  }
+  for (let i = 0; i < modalBtn.length; i += 1) {
+    modalBtn[i].addEventListener('click', () => {
+      if (i === modalId) {
+        projectModal.style.display = 'block';
+        const modalVisible = ` <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-card">
+          <img
+            src="${modalImage}"
+            class="modal-image"
+            alt="${modalTitle}"
+          />
+          <div class="modal-text">
+            <div class="modal-header">
+              <h3 class="modal-title">
+              ${modalTitle}
+              </h3>
+              <div class="modal-buttons">
+                <a href="${modalLiveLink}" class="button btn-primary"
+                  target="_blank">See live <span class="icon-icon-go-link"></span
+                ></a>
+                <a href="${modalSourceLink}" class="button btn-primary"
+                target="_blank">See Source <span class="icon-github"></span
+                ></a>
+              </div>
+            </div>
+            <ul class="modal-tags categories">
+             ${modaltagBadge}
+            </ul>
+            <p class="modal-description">
+             ${modalDescription}
+            </p>
+          </div>
+        </div>
+      </div>`;
+
+        projectModal.innerHTML = modalVisible;
+
+        // close the modal
+        const closeModal = document.getElementsByClassName('close');
+        for (let j = 0; j < closeModal.length; j += 1) {
+          closeModal[j].addEventListener('click', () => {
+            projectModal.style.display = 'none';
+          });
+          // close the modal when user clicks anywhere outside
+        }
+      }
+    });
+  }
+});
