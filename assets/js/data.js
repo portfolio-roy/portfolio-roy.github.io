@@ -1,4 +1,3 @@
-
 const projectData = [
   {
     title: 'Multi-Post Stories Gain+Glory',
@@ -56,10 +55,9 @@ function projectFunction() {
   let projectCard = '';
   // projectData.forEach(projectFunction);
 
-  projectData.forEach((item, index) => {
+  projectData.forEach((item) => {
     const projectTitle = item.title;
     const projectImage = item.featuredImage;
-    const id = index;
     let tagBadge = ''; // list of tags as li element
     const projectTags = item.tags;
     //   populate tag list iterating over tags array
@@ -148,7 +146,7 @@ projectData.forEach((modal, index) => {
             projectModal.style.display = 'none';
           });
           // close the modal when user clicks anywhere outside
-             window.onclick = function clickedOutside(event) {
+          window.onclick = function clickedOutside(event) {
             if (event.target === projectModal) {
               projectModal.style.display = 'none';
             }

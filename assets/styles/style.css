@@ -413,6 +413,15 @@ section {
   justify-content: flex-start;
 }
 
+.modal-tags .category {
+  background-color: #ebf0ee;
+  color: #172b4d;
+  font-size: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  line-height: 16px;
+}
+
 .portfolio-item .category {
   background-color: #ebf0ee;
   color: #172b4d;
@@ -481,6 +490,9 @@ section {
   height: 100%;
 
   /* Full height */
+  overflow: auto;
+
+  /* Enable scroll if needed */
   background-color: rgb(193 199 208 / 95%);
   transition: all 500ms ease;
 }
