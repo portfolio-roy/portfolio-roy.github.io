@@ -53,7 +53,6 @@ const projectData = [
 // Project card population
 function projectFunction() {
   let projectCard = '';
-  // projectData.forEach(projectFunction);
 
   projectData.forEach((item) => {
     const projectTitle = item.title;
@@ -118,7 +117,7 @@ projectData.forEach((modal, index) => {
               <h3 class="modal-title">
               ${modalTitle}
               </h3>
-              <div class="modal-buttons">
+              <div class="modal-buttons d-sm-none">
                 <a href="${modalLiveLink}" class="button btn-primary"
                   target="_blank">See live <span class="icon-icon-go-link"></span
                 ></a>
@@ -133,6 +132,14 @@ projectData.forEach((modal, index) => {
             <p class="modal-description">
              ${modalDescription}
             </p>
+            <div class="modal-buttons modal-btn-sm d-md-none">
+                <a href="${modalLiveLink}" class="button btn-primary"
+                  target="_blank">See live <span class="icon-icon-go-link"></span
+                ></a>
+                <a href="${modalSourceLink}" class="button btn-primary"
+                target="_blank">See Source <span class="icon-github"></span
+                ></a>
+              </div>
           </div>
         </div>
       </div>`;
