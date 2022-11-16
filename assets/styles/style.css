@@ -765,6 +765,7 @@ textarea:invalid {
     line-height: 59%;
     border-radius: 4px;
     margin-bottom: 12px;
+    position: relative !important;
   }
 
   .close:hover,
