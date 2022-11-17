@@ -628,12 +628,7 @@ textarea:focus {
   outline: none;
 }
 
-.error {
-  border: 2px solid red !important;
-}
-
 #error-message {
-  color: red;
   padding: 0 0 24px;
 }
 
