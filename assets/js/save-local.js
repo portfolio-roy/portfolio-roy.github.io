@@ -1,19 +1,3 @@
-// const submitButton = document.getElementById('getintouch_btn');
-// submitButton.addEventListener('click', () => {
-//   let enteredName = document.querySelector('.full_name').value;
-//   let enteredEmail = document.getElementById('email').value;
-//   let enteredMessage = document.getElementById('message').value;
-//   let Data = {
-//     Name: enteredName,
-//     Email: enteredEmail,
-//     Message: enteredMessage
-//   }
-//   console.log(Data.Name);
-//   localStorage.setItem("Form Data", JSON.stringify(Data));
-
-// }
-// )
-
 let fullName; let email; let message;
 
 function saveForm(form) {
@@ -53,4 +37,5 @@ function init() {
     message.value = cached.message;
   }
 }
+// run init function at bubbling stage
 document.addEventListener('DOMContentLoaded', init, false);
