@@ -11,7 +11,6 @@ function validateEmail(input, invalidMsg) {
 
   const email = input.value.trim();
   if (!emailRegex.test(email)) {
-    input.className = 'error';
     return errorMessage(invalidMsg);
   }
   return true;
