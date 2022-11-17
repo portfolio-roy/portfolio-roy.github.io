@@ -321,6 +321,7 @@
               class="my-contact-form"
               action="https://formspree.io/f/xdojwqqv"
               method="POST"
+              id="contact-form"
             >
               <label>
                 <span class="v-hidden">Name</span>
@@ -329,6 +330,7 @@
                   name="name"
                   maxlength="30"
                   placeholder="Full name"
+                  id="name"
                   required
                 />
               </label>
@@ -338,6 +340,7 @@
                   type="email"
                   name="email"
                   placeholder="Email Adress"
+                  id="email"
                   required
                 />
               </label>
@@ -347,15 +350,17 @@
                   name="message"
                   placeholder="Enter text here"
                   maxlength="500"
+                  id="message"
                   required
                 ></textarea>
               </label>
+              <span id="error-message"></span>
               <button class="button btn-primary border-none" type="submit">
                 Get In touch
               </button>
             </form>
           </div>
-          <div class="desktop-form">
+          <!-- <div class="desktop-form" id="d-form">
             <form
               class="my-contact-form"
               action="https://formspree.io/f/xdojwqqv"
@@ -386,6 +391,7 @@
                   type="email"
                   name="email"
                   placeholder="Email Adress"
+                  id="email"
                   required
                 />
               </label>
@@ -402,7 +408,7 @@
                 Get In touch
               </button>
             </form>
-          </div>
+          </div> -->
           <div class="footer-mobile">
             <ul class="social-links">
               <li>
@@ -456,12 +462,13 @@
           <a href="#"><span class="roy-icon icon-angellist"></span></a>
         </li>
       </ul>
-      <div id="demo"></div>
+
       <div class="footer-end">
         <div class="footer-end-line"></div>
       </div>
     </main>
     <script src="./assets/js/menu.js"></script>
     <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/form-validation.js"></script>
   </body>
 </html>

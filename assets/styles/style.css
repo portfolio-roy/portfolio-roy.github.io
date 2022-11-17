@@ -617,7 +617,7 @@ textarea {
   width: 100%;
   padding: 15px 16px;
   margin-bottom: 24px;
-  border: 2px solid #d0d9d4 !important;
+  border: 2px solid #d0d9d4;
   border-radius: 4px;
 }
 
@@ -628,9 +628,8 @@ textarea:focus {
   outline: none;
 }
 
-input:invalid,
-textarea:invalid {
-  border: 2px solid red;
+#error-message {
+  padding: 0 0 24px;
 }
 
 .mobile-form {
@@ -676,10 +675,6 @@ textarea:invalid {
 
   .footer-end,
   .footer-end-line {
-    display: none;
-  }
-
-  .mobile-form {
     display: none;
   }
 
@@ -766,6 +761,7 @@ textarea:invalid {
     border-radius: 4px;
     margin-bottom: 12px;
     position: relative !important;
+    right: 0;
   }
 
   .close:hover,
