@@ -36,7 +36,6 @@ function init() {
     email.value = cached.email;
     message.value = cached.message;
   }
- 
 }
 // run init function at bubbling stage
 document.addEventListener('DOMContentLoaded', init, false);
