@@ -442,6 +442,10 @@ section {
   color: white;
 }
 
+button {
+  margin: 10px;
+}
+
 .button {
   border-radius: 4px;
   font-size: 17px;
@@ -633,7 +637,6 @@ textarea:focus {
 }
 
 #error-message {
-  color: red;
   padding: 0 0 24px;
 }
 
