@@ -118,6 +118,7 @@ ul {
   color: #172b4d;
 }
 
+/* layout */
 .wrapper {
   width: 100%;
   padding: 0;
@@ -273,6 +274,7 @@ section {
   color: #36b37f;
 }
 
+/* for changing icon color */
 .m-logo:hover {
   filter: invert(88%) sepia(7%) saturate(4102%) hue-rotate(125deg) brightness(71%) contrast(89%);
 }
@@ -356,9 +358,11 @@ section {
 .thumbnail {
   width: 100%;
   height: 252px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   transition: 500ms ease;
+  aspect-ratio: 4/3;
+  background-color: #ebf0ee;
 }
 
 .thumbnail:hover {
@@ -404,13 +408,9 @@ section {
   height: 40px;
 }
 
-.about-me .category {
-  background-color: white;
-  color: #36b37f;
-}
-
-.modal-tags {
-  justify-content: flex-start;
+.portfolio-item .category {
+  background-color: #ebf0ee;
+  color: #172b4d;
 }
 
 .modal-tags .category {
@@ -422,17 +422,12 @@ section {
   line-height: 16px;
 }
 
-.portfolio-item .category {
-  background-color: #ebf0ee;
-  color: #172b4d;
+.about-me .category {
+  background-color: white;
+  color: #36b37f;
 }
 
 .about-me .category:hover {
-  background-color: #36b37f;
-  color: white;
-}
-
-.modal-tags .category:hover {
   background-color: #36b37f;
   color: white;
 }
@@ -442,8 +437,13 @@ section {
   color: white;
 }
 
-button {
-  margin: 10px;
+.modal-tags {
+  justify-content: flex-start;
+}
+
+.modal-tags .category:hover {
+  background-color: #36b37f;
+  color: white;
 }
 
 .button {
@@ -632,7 +632,12 @@ textarea:focus {
   outline: none;
 }
 
+.error {
+  border: 2px solid red !important;
+}
+
 #error-message {
+  color: red;
   padding: 0 0 24px;
 }
 

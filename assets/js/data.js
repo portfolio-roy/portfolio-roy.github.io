@@ -1,63 +1,67 @@
 const projectData = [
   {
-    title: 'Multi-Post Stories Gain+Glory',
-    tags: ['Ruby on rails', 'css', 'html'],
-    featuredImage: '../assets/images/portfolio-1.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    sourceLink: '#',
-
+    title: "A capstone project",
+    tags: ["JavaScript", "CSS", "HTML"],
+    featuredImage: "../assets/images/capstone-1.png",
+    description:
+      "It's a capstone project from microverse curriculum. We were asked to build a webite for some kind of conference. For my case, I chose an imaginary music conference.",
+    liveLink: "https://portfolio.utsargo.tech/capstone-1/",
+    sourceLink: "https://github.com/portfolio-roy/capstone-1",
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
-    tags: ['Ruby on rails', 'css', 'JavScript', 'html'],
-    featuredImage: '../assets/images/portfolio-2.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    sourceLink: '#',
+    title: "Multi-Post Stories Gain+Glory",
+    tags: ["Ruby on rails", "css", "JavScript", "html"],
+    featuredImage: "../assets/images/portfolio-2.png",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    liveLink: "#",
+    sourceLink: "#",
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
-    tags: ['Ruby on rails', 'css', 'JavScript', 'html'],
-    featuredImage: '../assets/images/portfolio-3.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    sourceLink: '#',
+    title: "Multi-Post Stories Gain+Glory",
+    tags: ["Ruby on rails", "css", "JavScript", "html"],
+    featuredImage: "../assets/images/portfolio-3.png",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    liveLink: "#",
+    sourceLink: "#",
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
-    tags: ['Ruby on rails', 'css', 'JavScript', 'html'],
-    featuredImage: '../assets/images/portfolio-4.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    sourceLink: '#',
+    title: "Multi-Post Stories Gain+Glory",
+    tags: ["Ruby on rails", "css", "JavScript", "html"],
+    featuredImage: "../assets/images/portfolio-4.png",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    liveLink: "#",
+    sourceLink: "#",
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
-    tags: ['Ruby on rails', 'css', 'JavScript', 'html'],
-    featuredImage: '../assets/images/portfolio-1.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    sourceLink: '#',
+    title: "Multi-Post Stories Gain+Glory",
+    tags: ["Ruby on rails", "css", "JavScript", "html"],
+    featuredImage: "../assets/images/portfolio-1.png",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    liveLink: "#",
+    sourceLink: "#",
   },
   {
-    title: 'Multi-Post Stories Gain+Glory',
-    tags: ['Ruby on rails', 'css', 'JavScript', 'html'],
-    featuredImage: '../assets/images/portfolio-2.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    sourceLink: '#',
+    title: "Multi-Post Stories Gain+Glory",
+    tags: ["Ruby on rails", "css", "JavScript", "html"],
+    featuredImage: "../assets/images/portfolio-2.png",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    liveLink: "#",
+    sourceLink: "#",
   },
-
 ];
 // Project card population
 function projectFunction() {
-  let projectCard = '';
+  let projectCard = "";
 
   projectData.forEach((item) => {
     const projectTitle = item.title;
     const projectImage = item.featuredImage;
-    let tagBadge = ''; // list of tags as li element
+    let tagBadge = ""; // list of tags as li element
     const projectTags = item.tags;
     //   populate tag list iterating over tags array
     for (let i = 0; i < projectTags.length; i += 1) {
@@ -81,13 +85,13 @@ function projectFunction() {
               </div>
             </div>`;
   });
-  document.getElementById('project-showcase').innerHTML = projectCard;
+  document.getElementById("project-showcase").innerHTML = projectCard;
 }
 projectFunction();
 
 // Modal Creation
-const modalBtn = document.getElementsByClassName('project-btn');
-const projectModal = document.getElementById('project-modal');
+const modalBtn = document.getElementsByClassName("project-btn");
+const projectModal = document.getElementById("project-modal");
 projectData.forEach((modal, index) => {
   const modalTitle = modal.title;
   const modalDescription = modal.description;
@@ -95,15 +99,15 @@ projectData.forEach((modal, index) => {
   const modalLiveLink = modal.liveLink;
   const modalSourceLink = modal.sourceLink;
   const modalId = index;
-  let modaltagBadge = '';
+  let modaltagBadge = "";
   const modalTags = modal.tags;
   for (let i = 0; i < modalTags.length; i += 1) {
     modaltagBadge += `<li class="category">${modalTags[i]}</li>`;
   }
   for (let i = 0; i < modalBtn.length; i += 1) {
-    modalBtn[i].addEventListener('click', () => {
+    modalBtn[i].addEventListener("click", () => {
       if (i === modalId) {
-        projectModal.style.display = 'block';
+        projectModal.style.display = "block";
         const modalVisible = ` <div class="modal-content">
         <span class="close">&times;</span>
         <div class="modal-card">
@@ -147,15 +151,15 @@ projectData.forEach((modal, index) => {
         projectModal.innerHTML = modalVisible;
 
         // close the modal
-        const closeModal = document.getElementsByClassName('close');
+        const closeModal = document.getElementsByClassName("close");
         for (let j = 0; j < closeModal.length; j += 1) {
-          closeModal[j].addEventListener('click', () => {
-            projectModal.style.display = 'none';
+          closeModal[j].addEventListener("click", () => {
+            projectModal.style.display = "none";
           });
           // close the modal when user clicks anywhere outside
           window.onclick = function clickedOutside(event) {
             if (event.target === projectModal) {
-              projectModal.style.display = 'none';
+              projectModal.style.display = "none";
             }
           };
         }
