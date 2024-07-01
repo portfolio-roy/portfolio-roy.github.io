@@ -3,9 +3,11 @@
   "scripts": {
   "dev": "next dev",
   "build": "next build",
+  "start": "next start",
   "export": "next build && next export",
   "deploy": "npm run export && touch out/.nojekyll"
-},
+}
+,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
