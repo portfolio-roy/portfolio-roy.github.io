@@ -4,7 +4,9 @@ const nextConfig = {
     output: 'export',
     basePath: '/portfolio-roy.github.io', // Set the base path for your GitHub Pages project
     assetPrefix: '/portfolio-roy.github.io/', // Set the asset prefix for your GitHub Pages project
-    
+    images: {
+        unoptimized: true,
+      },
   }
   
 module.exports = nextConfig
