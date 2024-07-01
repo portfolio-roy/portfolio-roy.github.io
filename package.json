@@ -4,8 +4,8 @@
   "dev": "next dev",
   "build": "next build",
   "start": "next start",
-  "export": "next start && next build && next export",
-  "deploy": "npm run export && touch out/.nojekyll"
+  "export": "next build && next export",
+  "deploy": "npm run start && export && touch out/.nojekyll"
 }
 ,
   "dependencies": {
